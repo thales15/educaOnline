@@ -1,0 +1,254 @@
+/* HTML inteiro */
+:root {
+  --Corfundo: #000;
+  --cortexto: #fff;
+  @font-face {
+    font-family: ;
+    src: url(../fontes/New);
+  }
+}
+* {
+  font-family: sans-serif;
+}
+body {
+  background-color: var(--Corfundo);
+  color: var(--cortexto);
+}
+.nav-link:hover {
+  color: #fff;
+}
+
+body h1 {
+  text-align: center;
+}
+body h5 {
+  text-align: center;
+}
+
+.carousel-inner img {
+  object-fit: cover;
+}
+.carousel img {
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  color: #fff;
+  min-height: 200px;
+  border-radius: 10px;
+  background-color: #212529;
+  margin-top: 35px;
+  list-style: none;
+}
+.header-footer{
+  display: flex;
+  justify-content: center;
+  margin-right: 15px;
+}
+footer a{
+  text-decoration: none;
+  color: rgb(19, 115, 199);
+  list-style: none;
+  transition: 0.5s;
+
+}
+footer a:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  list-style: none;
+  transition: 0.5s;
+  
+}
+footer ul{
+  list-style: none;
+}
+footer h5{
+  margin-left: 40px;
+}
+.redes img{
+  width: 40px;
+}
+
+/* Index.html e professores.html */
+.card {
+  margin-top: 20px;
+}
+.col-lg-3 {
+  justify-content: center;
+  display: flex;
+}
+.card {
+    background-color: #616161;
+}
+.card p{
+color: #fff;
+}
+.card h5{
+    color: #fff;
+}
+.card li {
+    color: #fff;
+    background-color: #616161;
+}
+.card-body button{
+    justify-content: center;
+    display: flex;
+   align-items: center;
+
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.card {
+    transition: 0.5s;
+    transform: scale(1.00);
+}
+
+
+/* professores.html */
+.professores{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+}
+.professores img {
+  width: 100%; 
+  height: auto;
+  display: block; 
+  max-width: 60%; 
+}
+.text-center h3{
+  margin-left: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.professores{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+/* login.html */
+.LOGIN a{
+ display: flex;
+}
+body{
+  background-color: black;
+}
+
+.LOGIN{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.login{
+  width: 300px;
+  padding: 20px;
+  color: #fff;
+  background-color: #565656;
+  border-radius: 5px;
+  box-shadow: -5px 5px 10px #7d0909;
+}
+
+.navegador{
+  margin-bottom: 30px;
+  border-radius: 6px;
+  border: 1px solid black; 
+  padding: 7px;
+  background-color: #fff; 
+  text-decoration: none;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navegador:hover{
+
+  transform: scale(2);
+}
+.login img{
+  width: 30px;
+  margin-left: 140px;
+}
+.apple img{
+  width: 25px;
+  margin-left: 153px;
+}
+.login .btn{
+  background-color: white;
+  transition: 0.5s;
+}
+.login .btn:hover{
+  background-color: #b80f0f;
+  transition: 0.5s;
+}
+
+
+/* cursos.html */
+.nome_cursos{
+  display: flex;
+  justify-content: start;
+  margin-top: 15px;
+  width: 80%;
+  border-bottom: 1.5px solid #fff;
+}
+
+
+/* pag_cursos_matéria */
+.corpo{
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #212529;
+  max-width: 80%;
+  min-height: 50vh;
+}
+.aulas{
+  border-bottom: 1px solid #670707;
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+}
+.aulas a{
+  color: #fff;
+}
+.aulas a:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+/* comoFunciona.html */
+.funciona{
+  font-size: 37px;
+  min-height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* sobreNos.html */
+.quem-somos{
+  margin: 0 25px;
+  min-height: 45vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+}
+.quem-somos p{
+  font-size: 30px;
+
+}
+
+/* pagamento.html */
+.login img {
+  margin: 0 auto;
+}
